@@ -1,0 +1,15 @@
+.badges_wrapper {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}
+
+.badge {
+
+    padding: 5px;
+
+    background-color: #df565a;
+    color: white;
+}
+

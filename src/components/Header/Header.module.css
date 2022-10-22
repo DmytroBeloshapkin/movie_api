@@ -1,0 +1,23 @@
+.Header{
+    background: #0080ff;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    font-size: 26px;
+}
+
+.navLink a{
+    display: flex;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+button{
+    margin: 5px;
+    background: #ffffff;
+    border-radius: 5px;
+    border: none;
+}

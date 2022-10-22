@@ -1,12 +1,15 @@
-const baseURL = 'https://api.themoviedb.org/3'
+const baseURL = 'https://api.themoviedb.org/3';
+const img = `https://image.tmdb.org/t/p/w500`
 
-const urls ={
-    movies: '/discover/movie?page=',
-    // search: '/search/movie?query=',
-    // genres: '/genre/movie/list',
+
+const urls = {
+    movie: '/discover/movie',
+    genres: '/genre/movie/list',
+    search: '/search/movie?query=',
 }
 
 export {
     baseURL,
-    urls
+    urls,
+    img
 }

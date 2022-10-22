@@ -1,0 +1,13 @@
+.App{
+    background: #cacbcc;
+    margin: 55px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+body{
+    background: #0058c4;
+}
