@@ -5,11 +5,10 @@ import css from './App.module.css'
 import {MainLayout} from "./layout/MainLayout";
 import {MoviesListPage, MoviePage, GenresPage, SearchPage} from "./pages";
 
-
-
 function App() {
     return (
         <div className={css.App}>
+
             <Routes>
                 <Route path={'/'} element={<MainLayout/>}>
                     <Route index element={<Navigate to={'movies'}/>}/>
@@ -17,11 +16,9 @@ function App() {
                     <Route path={'movie'} element={<MoviePage/>}/>
                     <Route path={'genres'} element={<GenresPage/>}/>
                     <Route path={'search'} element={<SearchPage/>}/>
-
                 </Route>
             </Routes>
-        </div>
-
+      </div>
     );
 }
 

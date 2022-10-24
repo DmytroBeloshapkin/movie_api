@@ -10,11 +10,11 @@ const GenreBadge = ({children}) => {
 
     for (let id of children) {
         const find = genres.find(value => value.id === id);
-        badges.push(find?.name);
+        badges.push(find.name);
     }
 
     return (
-        <div className={css.badges_wrapper}>
+        <div className={css.badges}>
             {badges.map((badge, index) => <div key={index} className={css.badge}>{badge}</div>)}
         </div>
     )

@@ -19,7 +19,7 @@ const MovieInfo = () => {
             </div>
             <div>
                 <h1>{title}</h1>
-                {adult?  <h4>Category: adult</h4>  : <h4>Category: kids</h4>}
+                {adult ? <h4>Category: adult</h4> : <h4>Category: kids</h4>}
                 <h4>Release date:{release_date}</h4>
                 <h4>Original language: {original_language}</h4>
                 <h2>{overview}</h2>

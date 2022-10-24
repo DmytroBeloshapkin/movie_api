@@ -1,11 +1,9 @@
-import {Swicher} from "../Swicher/Swicher";
+import {Switch} from "../Switch/Switch";
 
 const Search = () => {
     return (
     <div>
-            Search
-
-
+            search
     </div>
     );
 };
